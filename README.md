@@ -24,7 +24,7 @@ For using this plugin you need to modify two files in osTicket core:
     }
     ```
 
-2.  In `include/client/header.inc.php` add this inside the head tag:
+2.  In `include/client/header.inc.php` add this inside the `head` tag:
 
     ```php
     if ($ost && ($headers=$ost->plugins->getExtraHeaders())) {
